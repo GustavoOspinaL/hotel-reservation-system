@@ -1,6 +1,6 @@
-import { RoomService } from './RoomService';
-import { CustomerService } from './CustomerService';
-import { ReservationService } from './ReservationService';
+import { RoomService } from '../services/RoomService';
+import { CustomerService } from '../services/CustomerService';
+import { ReservationService } from '../services/ReservationService';
 import { Logger } from '../utils/Logger';
 
 export class HotelBookingFacade {
